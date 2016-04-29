@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    {% for image_src in imagens %}
+        <img width="30%" height="30%" src="data:image/png;base64,{{ image_src}}">
+    {%  endfor %}
+</body>
+</html>

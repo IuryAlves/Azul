@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <h1> Azul</h1>
+    <form action="/" method="post">
+        {%  csrf_token %}
+        <input type="text" name="id_empresa" placeholder="Id da empresa">
+        <input type="text" name="id_torre" placeholder="Id da torre">
+        <input type="submit" value="enviar"/>
+    </form>
+</body>
+</html>
